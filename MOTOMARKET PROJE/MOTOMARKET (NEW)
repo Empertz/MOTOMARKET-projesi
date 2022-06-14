@@ -28,9 +28,9 @@ while True:
      print("Yeni parolanız", eaa_password)
      break
  
-eaa_username = "emrealiali"
+eaa_username = "motomarket"
 while True:
-    kullanici_adi = input("Kullanıcı Adını Giriniz (emrealiali): ")#kullanıcı adı tanımlamak
+    kullanici_adi = input("Kullanıcı Adını Giriniz (motomarket): ")#kullanıcı adı tanımlamak
     sifre = input("Belirlediğiniz Şifre'yi Giriniz: ")#şifre tanımlamak 
     
 
