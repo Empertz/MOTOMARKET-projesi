@@ -35,7 +35,7 @@ while True:
     
 
     if (kullanici_adi == eaa_username) and (sifre != eaa_password):#kullanıcı adı doğru fakat şifre yanlış
-         print("Şifre ya nlış..")
+         print("Şifre yanlış..")
 
     elif (kullanici_adi != eaa_username) and (sifre == eaa_password):#şifre doğru fakat kullanıcı adı yanlış
          print("Kullanıcı adı yanlış..")
@@ -45,7 +45,7 @@ while True:
 
     if(kullanici_adi == eaa_username) and (sifre == eaa_password):#her ikiside doğru ise sayfayı devam ettiriyor
         print("3") 
-        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer# colorama kütüphanesi ile renk veriyoruz 
+        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer 
         print("2") 
         time.sleep(1) 
         print("1")
@@ -164,5 +164,5 @@ while True:
      
      exit(0)
    
-    elif int != belirle:
+    else int != belirle: #burda ise else yaparak geçersiz olarak girilecek işlemleri ekrana yansıtıyoruz
         print("Lütfen Geçerli Bir İşlem Girin")
