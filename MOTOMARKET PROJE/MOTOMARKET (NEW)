@@ -165,5 +165,5 @@ while True:
      
      exit(0)
    
-    else int != belirle: #burda ise else yaparak geçersiz olarak girilecek işlemleri ekrana yansıtıyoruz
+    elif int != belirle: #burda ise elif yaparak geçersiz olarak girilecek işlemleri ekrana yansıtıyoruz
         print("Lütfen Geçerli Bir İşlem Girin")
