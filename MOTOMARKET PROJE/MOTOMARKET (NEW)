@@ -1,3 +1,4 @@
+#YUSUF EMRE CİHAN -----------------------------------------------------------------------------------------------------------------------
 import time #zaman kütüphanesi zaman değişkeni eklemek için kullanılıyor,
 print("""
 ███    ███  ██████  ████████  ██████  ███    ███  █████  ██████  ██   ██ ███████ ████████ 
@@ -56,7 +57,7 @@ while True:
         break #komut kendini tekrar etmesin diye komut çizgisini kırıyorum
 
 
-    
+    #ALİ REMZİ YILDIRIM----------------------------------------------------------------------------------------------------------------------
 print(""" Marka seçiniz
     1.Bajaj
     2.Bmw
@@ -125,7 +126,7 @@ while True:
 
     elif belirle == 10:
         print(yamaha)
-    
+    #AYDIN ALİ KAYGUSUZ-----------------------------------------------------------------------------------------------------------------------
     elif belirle == 0:
      print("PROGRAM KAPANIYOR") 
      time.sleep(1)
