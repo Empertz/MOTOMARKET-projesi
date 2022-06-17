@@ -48,9 +48,9 @@ while True:
         print("3") 
         time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer 
         print("2") 
-        time.sleep(1) 
+        time.sleep(1) #time sleep ile yavaş sayması için zaman belirliyoruz
         print("1")
-        time.sleep(1)#verdiğimiz renkleri sıfırlıyoruz
+        time.sleep(1)
         print("Mağazaya Giriş Yapıldı!")
         time.sleep(0.5)
         print("HOŞGELDİNİZ!")
