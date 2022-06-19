@@ -17,11 +17,13 @@ _  _ _  _ _    _    ____ _  _ _ ____ _    ____ _ ____ _ ____    ____ _  _ ____ _
 """)
 while True:
     eaa_password = input ("Bir Parola Belirleyin:")
-
-    if not eaa_password:
+   #eaa_password sdlı değişkene soruyu yöneltiyotum
+    if not eaa_password: 
+#eğer parolaya boşluk yazarsak if not olarak sisteme işliyor ve alttaki yazı çıkıyor.
         print("Parola bölümü boş geçilemez")
 
     elif len(eaa_password) > 8 or len(eaa_password) < 3:
+#parola 8 ile 3 karakter arasında olması için değişkeni 8 den küçük 3 ten büyük yapıyorum.
 
         print("Parola 8 Karakterden Uzun 3 Karakterden Kısa Olmamalı")
     
@@ -31,8 +33,8 @@ while True:
  
 eaa_username = "motomarket"
 while True:
-    kullanici_adi = input("Kullanıcı Adını Giriniz (motomarket): ")#kullanıcı adı tanımlamak
-    sifre = input("Belirlediğiniz Şifre'yi Giriniz: ")#şifre tanımlamak 
+    kullanici_adi = input("Kullanıcı Adını Giriniz (motomarket): ")#kullanıcı adı tanımlamak için kullanıyorum. 
+    sifre = input("Belirlediğiniz Şifre'yi Giriniz: ")#şifre yi tanımlanıyorum onu sizin belirlemeniz için açık bırakıyorum.
     
 
     if (kullanici_adi == eaa_username) and (sifre != eaa_password):#kullanıcı adı doğru fakat şifre yanlış
@@ -44,9 +46,9 @@ while True:
     elif(kullanici_adi != eaa_username) and (sifre != eaa_password):#kullanıcı adı ve şifre yanlış
          print("Kullanıcı adı ve şifre yanlış..")
 
-    if(kullanici_adi == eaa_username) and (sifre == eaa_password):#her ikiside doğru ise sayfayı devam ettiriyor
+    if(kullanici_adi == eaa_username) and (sifre == eaa_password):#her ikiside doğru ise sayfayı devam ettiriyorum
         print("3") 
-        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer 
+        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer slrrp ile bekletiyorum
         print("2") 
         time.sleep(1) #time sleep ile yavaş sayması için zaman belirliyoruz
         print("1")
