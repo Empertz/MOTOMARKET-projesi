@@ -17,7 +17,7 @@ _  _ _  _ _    _    ____ _  _ _ ____ _    ____ _ ____ _ ____    ____ _  _ ____ _
 """)
 while True:
     eaa_password = input ("Bir Parola Belirleyin:")
-   #eaa_password sdlı değişkene soruyu yöneltiyotum
+   #eaa_password adlı değişkene soruyu yöneltiyotum
     if not eaa_password: 
 #eğer parolaya boşluk yazarsak if not olarak sisteme işliyor ve alttaki yazı çıkıyor.
         print("Parola bölümü boş geçilemez")
