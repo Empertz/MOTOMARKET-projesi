@@ -48,7 +48,7 @@ while True:
 
     if(kullanici_adi == eaa_username) and (sifre == eaa_password):#her ikiside doğru ise sayfayı devam ettiriyorum
         print("3") 
-        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer slrrp ile bekletiyorum
+        time.sleep(1) #time kütüphanesini genel olarak kullandığımız yer sleep ile bekletiyorum
         print("2") 
         time.sleep(1) #time sleep ile yavaş sayması için zaman belirliyoruz
         print("1")
@@ -56,7 +56,7 @@ while True:
         print("Mağazaya Giriş Yapıldı!")
         time.sleep(0.5)
         print("HOŞGELDİNİZ!")
-        break #komut kendini tekrar etmesin diye komut çizgisini kırıyorum
+        break #komut kendini tekrar etmesin diye komut çizgisini kırıyorum ve alttaki koda geçiyoruz.
 
 
     #ALİ REMZİ YILDIRIM----------------------------------------------------------------------------------------------------------------------
@@ -74,6 +74,7 @@ print(""" Marka seçiniz
     PROGRAMI KAPATMAK İÇİN (0) YAZINIZ
     """)
 # Bu alttaki aşamada motorların her birini değişken olarak tanımlıyorum özelliklerini ona göre giriyorum.
+#Daha sonra her bir motoru kendi değişkenine göre tanımlayıp ona bağlı olan sayıyı girdiğimizde ektana yansıtacağız.
 bajaj = 'Model: Pulsar rs 200\nTipi: Super Sport\n Yılı:2021\n Motor Hacmi: 200 cm³/n Motorgücü 176 - 200hp \n Renk: Mavi \n Fiyat: 57.000TL '
 
 bmw = 'Model: R1200RT  \n Tipi:Touring\n Yılı: 2022 \n Motor Hacmi: 1001 - 1200 cm³\n Yılı \n Motorgücü: 101 - 125 hp \n Renk: Kırmızı \n Fiyat:119.000TL  '
@@ -129,7 +130,7 @@ while True:
     elif belirle == 10:
         print(yamaha)
     #AYDIN ALİ KAYGUSUZ-----------------------------------------------------------------------------------------------------------------------
-    elif belirle == 0:
+    elif belirle == 0: #0 rakamını yazdığımızda allttaki kapatmak için yaptıh kodu çalıştırıyor.
      print("PROGRAM KAPANIYOR") 
      time.sleep(1)
      print(3)
@@ -165,7 +166,7 @@ while True:
      """)
      time.sleep(2)
      
-     exit(0)
+     exit(0)#burada ise kodu kapatmak için exit komutunu kullanıyorum.
    
     elif int != belirle: #burda ise elif yaparak geçersiz olarak girilecek işlemleri ekrana yansıtıyoruz
         print("Lütfen Geçerli Bir İşlem Girin")
