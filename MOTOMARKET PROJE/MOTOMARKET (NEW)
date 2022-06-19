@@ -169,5 +169,5 @@ while True:
      
      exit(0)#burada ise kodu kapatmak için exit komutunu kullanıyorum.
    
-    elif int != belirle: #burda ise elif yaparak geçersiz olarak girilecek işlemleri ekrana yansıtıyoruz
+    elif int != belirle: #burda ise elif int(yani sayı değeri) belirleye eşit değil ise işlem geçersiz olarak girilecek ve döngü tekrarlayıp ekrana alttaki yazı cıkıcak
         print("Lütfen Geçerli Bir İşlem Girin")
