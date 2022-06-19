@@ -15,6 +15,7 @@ _  _ _  _ _    _    ____ _  _ _ ____ _    ____ _ ____ _ ____    ____ _  _ ____ _
 | \_ |__| |___ |___ |  | | \| | |___ |    |__] | |  \ | ___]    |___ | \_ |  \ |  | | \| | 
                                                                                            
 """)
+#eaa_ adlı değişken belirlememizin sebebi isimlerimizin baş harfleri oldugu için emre ali ali
 while True:
     eaa_password = input ("Bir Parola Belirleyin:")
    #eaa_password adlı değişkene soruyu yöneltiyotum
